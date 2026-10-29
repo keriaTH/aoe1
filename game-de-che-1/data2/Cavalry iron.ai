@@ -1,0 +1,71 @@
+//Cavalry Iron
+//used by: assyria, choson, greek, persia, shang,
+//yamato, carthage, hellene, palmyra
+//20 Cavalry, 6 catapults
+//retrains: 2 scouts
+//18-6 villagers
+//Revision 2: July 8th 1997 Switched the Academy with a Gov't Center
+//Revision 3: 7/16/97: Market moved up; Scouts on limited retrain
+//Revision 4: 6/25/98: removed farms; replaced ballistas with catapults; 
+//added Heavy Cat upgrade on the off-chance they need it; added Ballistics &
+//Engineering on same theory. 
+//revision 5: 7/24/98: removed upgrades not available to civs using this ai
+//8/11/1998: small changes to improve bronze time
+//By Ensemble Studios
+
+B109      Town_Center1         1      -1       
+U83       Man                  6      109      
+B12       Barracks1            1      -1       
+U83       Man                  6      109      
+
+C101    Tool_Age               1      109      
+B84       Market1              1      -1       
+T83       Man                  2      109      2
+B50       Farm                 2      -1     
+T83       Man                  2      109      2
+B101      Stable1              1      -1     
+T299      Soldier-Scout        1      101      2
+U83       Man                  2      109      
+B50       Farm                 2      -1     
+T83       Man                  2      109      2
+U83       Man                  2      109      
+B50       Farm                 2      -1     
+
+C102    Bronze_Age             1      109    
+B82       Government_Center    1      -1 
+U37       Soldier-Cavalry1     2      101      
+R46     Tool_Working           1      103      
+U83       Man                  2      109      
+B101      Stable1              1      -1       
+U37       Soldier-Cavalry1     2      101      
+R16     Watch_Tower            1      68       
+B79       Watch_Tower          2      -1     
+U37       Soldier-Cavalry1     2      101      
+R42	  Leather_Armor_Mounted  1      103
+U37       Soldier-Cavalry1     2      101      
+B87       Range1               1      -1       
+B49       Siege_Workshop       1      -1       
+U35       Soldier-Catapult1    2      49     
+R81	 Domestication           1      84	
+B50       Farm                 2      -1     
+
+C103    Iron_Age               1      109      
+U37       Soldier-Cavalry1     2      101      
+R51	  Metal_Working          1	     103
+B101      Stable1              1      -1       
+R108	  Gold_Mining            1	     84
+U37       Soldier-Cavalry1     2      101      
+R45	  Scale_Armor_Cavalry    1	     103
+R107	  Wood_Working           1      84
+R52       Metallurgy           1      103
+U37       Soldier-Cavalry1     2      101 
+R45	  Scale_Armor_Cavalry    1	     103
+U35       Soldier-Catapult1    2      49     
+R50     Chain_Mail-Cavalry     1      103
+U37       Soldier-Cavalry1     2      101      
+R71     Heavy_Cavalry          1      101      
+U35       Soldier-Catapult1    6      49     
+R35     Engineering            1      82     
+
+//End
+

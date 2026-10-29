@@ -1,0 +1,80 @@
+//Greek Priests
+//16 Priests, 10 phalanxes 
+//rebuilds: 4 slingers
+//16-7 villagers
+//
+//By Ensemble Studios
+
+B109      Town_Center1         1      -1         
+U83       Man                  6      109        
+B12       Barracks1            1      -1         
+T83       Man                  5      109        2
+U83       Man                  4      109        
+
+C101    Tool_Age               1      109        
+B84       Market1              1      -1         
+U83       Man                  2      109        
+T347      Slinger              2      12         2
+R16     Watch_Tower            1      68         
+B79       Watch_Tower          2      -1         
+U83       Man                  2      109        
+B87       Range1               1      -1         
+U83       Man                  2      109        
+T347      Slinger              2      12         2
+R40     Leather_Armor_-_Soldie 1      103        
+B50       Farm                 2      -1     
+R46     Tool_Working           1      103        
+R107    Wood_Working           1      84         
+T83       Man                  2      109        2
+R81     Domestication          1      84     
+B50       Farm                 2      -1     
+
+C102    Bronze_Age             1      109        
+B104      Temple1              1      -1         
+U125      Priest               2      104        
+R28     Wheel                  1      84         
+U125      Priest               2      104        
+R32	  Artisanship	          1	     84
+U125      Priest               2      104        
+R108    Gold_Mining            1      84         
+U125      Priest               2      104        
+R24     Polytheism             1      104        
+B0        Academy              1      -1     
+U93       Soldier-Phal1        2      0      
+R51     Metal_Working          1      103        
+R22     Astrology              1      104        
+R47     Bronze_Shield          1      103        
+R21     Mysticism              1      104        
+B50       Farm                 2      -1     
+R12     Sentry_Tower           2      68         
+U93       Soldier-Phal1        2      0      
+R43     Scale_Armor_-_Soldiers 1      103        
+U93       Soldier-Phal1        2      0      
+
+C103    Iron_Age               1      109
+B104      Temple1              1      -1         
+R111    Siegecraft             1      84     
+U125      Priest               2      104        
+B82       Government_Center    1      -1     
+R113    Aristocracy            1      82     
+U125      Priest               2      104        
+R30	  Coinage                1      84
+R15     Guard_Tower            1      68         
+U125      Priest               2      104        
+B79       Watch_Tower          2      -1         
+R18     Afterlife              1      104        
+U93       Soldier-Phal1        2      0      
+R20     Fanaticism             1      104        
+U125      Priest               2      104        
+R73     Phalanx                1      0      
+U93       Soldier-Phal1        2      0      
+R117     Iron_Shield           1      103        
+R110    Craftsmanship          1      84
+R106    Ballistics             1      82     
+R48     Chain_Mail_-_Soldiers  1      103        
+B79       Watch_Tower          6      -1         
+R2      Catapult_Tower         1      68     
+
+B276      Wonder               1      -1     
+
+//End

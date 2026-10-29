@@ -1,0 +1,88 @@
+//Priest Bronze 
+//used by: assyria, babylon, egypt, phoenicia, shang
+//16 Priests, 12 chariot archers
+//retrains: 4 archers 
+//15-8 villagers
+//Revision 2: 7/02/97: Continue research into the Iron Age
+//Revision 3: 7/16/97: Market moved up; Scouts on limited retrain
+//Revision 4: 8/ 1/97: Moved Govt Center to Iron Age
+//Revision 5: 6/09/98: X-Pack revisions; exchanged 2 clubmen for 
+//slingers; added Medicine
+//Revision 6: removed farms, clubmen; replaced ballistas with catapults, added
+//camels in place of some cats, reduced archer retrains. 
+//Revision 7: 7/27/1998: removed upgrades not used by civs getting this ai
+//8/13/1998: small changes to improve bronze time
+//By Ensemble Studios
+ 
+B109      Town_Center1         1      -1     
+U83       Man                  8      109    
+B12       Barracks1            1      -1     
+U83       Man                  9      109    
+
+C101    Tool_Age               1      109    
+B84       Market1              1      -1     
+T83       Man                  2      109    2
+R16     Watch_Tower            1      68     
+B79       Watch_Tower          3      -1     
+B87       Range1               1      -1     
+T83       Man                  2      109    2
+T4        Soldier-Archer1      2      87     2
+B101      Stable1              1      -1     
+B50       Farm                 2      -1     
+T83       Man                  2      109    2
+T4        Soldier-Archer1      2      87     2
+R81     Domestication          1      84     
+B50       Farm                 2      -1     
+
+C102    Bronze_Age             1      109    
+B104      Temple1              1      -1     
+R108    Gold_Mining            1      84     
+U125      Priest               2      104       
+B82       Government_Center    1      -1     
+B87       Range1               1      -1     
+R32     Artisanship            1      84     
+B104      Temple1              1      -1     
+U41       Soldier-Chariot2     2      87     
+R41     Leather_Armor_-_Archer 1      103    
+U125      Priest               1      104       
+R28     Wheel                  1      84     
+U41       Soldier-Chariot2     2      87     
+R107    Wood_Working           1      84     
+U125      Priest               2      104    
+R109    Stone_Mining           1      84     
+U41       Soldier-Chariot2     2      87     
+B104      Temple1              2      -1     
+U125      Priest               2      104    
+R21     Mysticism              1      104    
+B50       Farm                 2      -1     
+U41       Soldier-Chariot2     2      87     
+R24     Polytheism             1      104    
+R44     Scale_Armor_-_Archers  1      103    
+B79       Watch_Tower          2      -1     
+R12     Sentry_Tower           1      68     
+U41       Soldier-Chariot2     2      87     
+U125      Priest               2      104    
+U41       Soldier-Chariot2     2      87     
+U125      Priest               2      104    
+R112    Architecture           1      82     
+R34     Nobility               1      82     
+
+C103    Iron_Age               1      109    
+R19     Monotheism             1      104    
+B87       Range1               1      -1     
+R110    Craftmanship           1      84     
+U125      Priest               2      104
+R20     Fanaticism             1      104    
+R49     Chain_Mail_-_Archers   1      103    
+R18     Afterlife              1      104    
+U125      Priest               2      104
+R15     Guard_Tower            1      68     
+B79       Watch_Tower          1      -1            
+R106    Ballistics             1      82     
+R37     Alchemy                1      82     
+R30     Coinage                1      84     
+   
+B276      Wonder               1      -1     
+
+//End
+

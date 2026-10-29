@@ -1,0 +1,70 @@
+//Cavalry Archer Iron.ai
+//received by: assyria, babylon, choson, hittite, persia, 
+//shang, sumer, yamato, carthage, hellene, palmyra
+//18 Horse Archers, 4 Catapults
+//retrains: 8 bowmen 
+//18-6 villagers
+//
+//Revision 2: 7/16/97: Market moved up; Scouts on limited retrain
+// jce - 8/12/97 - cleaned out auto-built items, switched focus to horse archers
+// from cavalry, added research for horse archer upgrades, added villagers
+//Revision 2: 6/25/98: X-Pack changes; removed farms, added 3 ballistas, 4 horse 
+//archers; made chariots into retrains, turned ballistas into half as many 
+//catapults; added heavy cats
+//revision 3: 7/24/98: took out upgrades illegal to the civs that get this ai.
+//8/13/1998: small changes to improve bronze time
+//By Ensemble Studios
+
+B109      Town_Center1         1      -1       
+U83       Man                  14     109      
+B12       Barracks1            1      -1       
+T83       Man                  4      109     2 
+
+C101    Tool_Age               1      109      
+B84       Market1              1      -1       
+U83       Man                  2      109      
+B50       Farm                 2      -1     
+B87       Range1               1      -1       
+T4        Soldier-Archer1      2      87     2
+T83       Man                  2      109    2
+R81     Domestication          1      84     
+B50       Farm                 2      -1     
+
+C102    Bronze_Age             1      109      
+U83       Man                  2      109      
+T4        Soldier-Archer1      2      87     2
+B82       Government_Center    1      -1       
+R16     Watch_Tower            1      68       
+B79       Watch_Tower          2      -1     
+B49       Siege_Workshop       1      -1       
+T4        Soldier-Archer1      2      87     2
+B79       Watch_Tower          2      -1     
+U35       Soldier-Catapult1    2      49          
+R108    Gold_Mining            1      84       
+B50       Farm                 2      -1     
+R107    Wood_Working           1      84 
+B87       Range1               1      -1       
+T4        Soldier-Archer1      2      87     2
+R41	  Leather_Armor_-_Archer 1	  103
+U35       Soldier-Catapult1    2      49     
+R31     Plow                   1      84     
+B50       Farm                 2      -1     
+
+C103    Iron_Age               1      109      
+B87       Range1               1      -1       
+R44     Scale_Armor_-_Archers  1      103 
+U39       Soldier-Cavalry3_Arc 2      87       
+R32     Artisanship            1      84       
+U39       Soldier-Cavalry3_Arc 2      87       
+R106    Ballistics             1      82           
+U39       Soldier-Cavalry3_Arc 2      87              
+R37	  Alchemy                1      82
+U39       Soldier-Cavalry3_Arc 2      87       
+R12     Sentry_Tower           1      68     
+U39       Soldier-Cavalry3_Arc 10     87       
+R110	  Craftsmanship          1      84
+
+B276      Wonder               1      -1     
+
+//End
+
